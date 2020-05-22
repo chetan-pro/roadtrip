@@ -33,17 +33,25 @@
     #bars{
         display: block;
     }
-   
-    #container1 img{
-      
-      min-height: 100vh;
+    #lsec{
+        display: none;
+    }
+    #container1{
+        min-height: 80%;
+    }
+    #container1 img{ 
+     height: 100%;
       
     }
     #pbsec{
         display: none;
     }
+    #overlay{
+        position: absolute;
+        top: 0;
+    }
     #overlay #msec{
-        text-align: center;
+        text-align: left;
         position: absolute;
         width: 100%;
         padding: 10px;
@@ -52,9 +60,17 @@
         transform: translate(-50%,-50%);
         display: flex;
         flex-direction: column;
-        align-items: center;
+       
     }
-    
+    #overlay #msec h1{
+        font-size: 40px;
+    }
+    #overlay #msec p{
+        font-size: 16px;
+    }
+    #overlay #msec  h3{
+        font-size: 16px;
+    }
     #container2{
        
         display: flex;
@@ -66,21 +82,30 @@
     #container2 #mimg{
         margin-top: 15px;
         width: 80%;
-        height: 90vh;
+        height: 60vh;
         background-color: chocolate;
     }
     #mimg img{
         width: 100%;
     }
     #container2 #con{
-        min-width: 100%;
+        width: 100%;
         padding: 5px;
         margin-left: 0px;
-        height: 350px;
+       
     }
     #container2 #con p{
         width: 100%;
         
+    }
+    #container3{
+        width: 100%;
+    }
+    #container3 div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
     #container4{
         padding: 10px;
@@ -93,7 +118,7 @@
         margin-top: 20px;
     }
     .Cons img{
-        width: 15%;
+        width: 20%;
         height: 80%;
         opacity: 0;
     }
@@ -140,40 +165,76 @@
     #container5 #bimg{
         margin-left: 0;
         width: 50%;
-        height: 50%;
+        height: 30%;
         background-color: chocolate;
     }
     #container5 #bimg img{
         height: 100%;
         width: 100%;
     }
-    #container6 #md{
-            display: none;
+    #container6 #mid{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+    
     }
-    #container6 #rd{
-        
+    #ld{
+        position: relative;
+        width: 50%;
+        height: 70%; 
+    }
+    #ld img{
+        width: 100%;   
+    }
+    #md{
         width: 100%;
        
-    }
-    #container6 #rd h3{
-        font-size: 17px;
-    }
-    #trd{
-        display: none;
-    }
-    #mrd{
-        margin-left: -60px;
-    }
-    #brd{
-        display: none;
-    }
-    #container6 #rd a{
-       
-     position: absolute;
-     right: 0%;
-     top: 0;
         
     }
+    #md h3{
+        font-size: 25px;
+       
+    }
+    #md ul li{
+      
+        font-size: 15px;
+    }
+    #rd{position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         width: 100%;
+        height: 70%;
+        color: white;
+        
+    }
+    #rd h3{
+        font-size: 25px;
+        opacity: .9;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-family: 'Playfair Display', serif;
+    }
+    #rd ul li{
+        font-size: 15px;
+    }
+    #rd .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 20%;
+        transform: rotate(-90deg);
+    }
+    
+    #brd{font-size: 28px;}
+    #brd i:nth-child(2){margin-left: 10px;}
     #container6 footer{
         text-align: center;
         display: flex;
@@ -181,12 +242,26 @@
         padding: 0px 10px;
         align-items: center;
     }
-    #container6 #fr{
-        margin-right: -50px;
-        margin-top: 10px;
-    }
-    #container6 #ld{
+    #container6 #fl{
         display: none;
     }
+    #container6 #fr{
+      
+        margin-top: 10px;
+    }
+    .remove1{
+        width: 100%;
+        height: 80px;
+        z-index: 9900;
+        color: white;
+        background-color:black;
+        position: fixed;
+        bottom: 0%;
+        right:0%;
+        word-spacing: 1px;
+        font-size: 13px;
+        padding: 0px 5px;
+    }
+    
 
 }
