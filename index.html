@@ -13,12 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 </head>
 
 <body>
 
-    <nav >
+    <nav>
         <!-- <div id="cnav"></div> -->
         <div id="logo"><img src="spt.png" alt="">
             <h6>Cirvagero Motor <br><span> Riders Road Trip</span></h6>
@@ -30,7 +31,7 @@
             <li><a href="./sumere.html">Su-mere</a></li>
         </ul>
         <div id="bars"><i class="fa fa-bars"></i></div>
-       
+
     </nav>
     <div class="remove1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, error.</p>
@@ -47,17 +48,20 @@
                 <div id="hmsec">
                     <h1>Travel & ride</h1>
                 </div>
-                <p>Motorcycle riding is a combination of exhilaration, fear, relaxation, and pleasure that changes you forever. It's physical & emotional pleasure, with a layer of anxiety & adrenaline</p>
+                <p>Motorcycle riding is a combination of exhilaration, fear, relaxation, and pleasure that changes you
+                    forever. It's physical & emotional pleasure, with a layer of anxiety & adrenaline</p>
                 <div id="bmsec">
                     <h3>Discover</h3>
-                   <a style="color: white;"  href="./circuits.html"> <div class="circle"> <svg class="bi bi-arrow-right-short" width="1em" height="1em"
-                            viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
-                                clip-rule="evenodd" />
-                            <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z"
-                                clip-rule="evenodd" />
-                        </svg></div></a>
+                    <a style="color: white;" href="./circuits.html">
+                        <div class="circle"> <svg class="bi bi-arrow-right-short" width="1em" height="1em"
+                                viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
+                                    clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z"
+                                    clip-rule="evenodd" />
+                            </svg></div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -65,32 +69,40 @@
     <div id="container2">
         <div id="mimg">
 
-            <div id="img" class="shadow">
-                <img id="img1" src="pic1.jpeg" alt="">
-                <img id="img2" src="pic2.jpeg" alt="">
-                <img id="img3" src="pic3.jpeg" alt="">
-                <img id="img4" src="pic4.jpeg" alt="">
-            </div>
-            <div id="img_con" class="animate__animated animate__fadeInUp">
-                <a href="#img1"><svg class="bi bi-circle-fill" width="1em" height="1em" viewBox="0 0 16 16"
-                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="8" />
-                    </svg></a>
-                <a href="#img2"><svg class="bi bi-circle-fill" width="1em" height="1em" viewBox="0 0 16 16"
-                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="8" />
-                    </svg></a>
-                <a href="#img3"><svg class="bi bi-circle-fill" width="1em" height="1em" viewBox="0 0 16 16"
-                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="8" />
-                    </svg></a>
-                <a href="#img4"><svg class="bi bi-circle-fill" width="1em" height="1em" viewBox="0 0 16 16"
-                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="8" cy="8" r="8" />
-                    </svg></a>
-            </div>
-        </div>
+            <div id="carouselExampleIndicators" style="width: 100%; " class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators ">
+                  <li data-target="#carouselExampleIndicators"  data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block vh-100 w-100" src="pic1.jpeg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block vh-100 w-100" src="pic2.jpeg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block vh-100 w-100" src="pic3.jpeg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block vh-100 w-100" src="pic4.jpeg" alt="Third slide">
+                  </div>
+                </div>
+                 
+            
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
 
+        </div>
         <div id="con">
             <h1>Take Experience<br>unbelivable</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur provident delectus eligendi
@@ -98,6 +110,7 @@
                 magnam rem iusto quisquam.</p>
             <a href="./circuits.html">Now circuits</a>
         </div>
+
     </div>
     <div id="container3">
         <div id="#contu">
@@ -132,8 +145,7 @@
             <div id="con3" class="Cons"><img src="con3.jpg" alt="">
                 <div id="cond">
                     <h3>Mountains Hills</h3>
-                    <p>Traversée des Pyrénées Françaises et Espagnoles, d'Ouest en Est.</p><a
-                        href="#">Discover</a>
+                    <p>Traversée des Pyrénées Françaises et Espagnoles, d'Ouest en Est.</p><a href="#">Discover</a>
                 </div>
                 <div id="cont">
                     <h3>900$</h3>
@@ -143,7 +155,8 @@
             <div id="con4" class="Cons"><img src="con4.jpg" alt="">
                 <div id="cond">
                     <h3>Zik Zack</h3>
-                    <p>Depuis Toulouse, découvrez la Vallée du Lot, du Célé et Saint-Cirq-Lapopie.</p><a href="#">Discover</a>
+                    <p>Depuis Toulouse, découvrez la Vallée du Lot, du Célé et Saint-Cirq-Lapopie.</p><a
+                        href="#">Discover</a>
                 </div>
                 <div id="cont">
                     <h3>500$</h3>
@@ -182,7 +195,7 @@
                 </ul>
             </div>
             <div id="rd">
-               
+
                 <div id="trd">
                     <h3>Rabrique</h3>
                     <ul>
@@ -203,14 +216,16 @@
                     <i class="fa fa-instagram"></i>
                     <i class="fa fa-twitter"></i>
                 </div>
-                <a style="color: white;" href="#container1"> <div class="circle"> <svg class="bi bi-arrow-right-short" width="1em" height="1em" viewBox="0 0 16 16"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
-                        clip-rule="evenodd" />
-                    <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z"
-                        clip-rule="evenodd" />
-                </svg></div></a>
+                <a style="color: white;" href="#container1">
+                    <div class="circle"> <svg class="bi bi-arrow-right-short" width="1em" height="1em"
+                            viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
+                                clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z"
+                                clip-rule="evenodd" />
+                        </svg></div>
+                </a>
             </div>
         </div>
         <footer>
@@ -235,6 +250,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
         integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <script type="text/javascript">
 
 
@@ -303,29 +319,51 @@
             }, {
                 offset: '250px'
             })
-        })    
-         $(document).ready(function () {
+        })
+        $(document).ready(function () {
             $('#container5').waypoint(function (direction) {
                 $('#bimg').addClass('animate__animated animate__slideInRight')
             }, {
                 offset: '250px'
             })
         })
-        $(document).ready(function(){
-            $('#bars').click(function(){
+        $(document).ready(function () {
+            $('#bars').click(function () {
                 $('nav ul').toggleClass('active')
             })
         })
-        $(document).ready(function(){
-            $('#accept').click(function(){
+        $(document).ready(function () {
+            $('#accept').click(function () {
                 $('.remove1').toggleClass('remove')
             })
         })
-       
-         
 
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
 
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
 
     </script>
 </body>
