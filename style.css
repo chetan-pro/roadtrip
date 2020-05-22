@@ -116,7 +116,7 @@ nav ul li a:hover{
 #container1 img{
    
     background-image: url(bgimg.jpg);
-    width: 200%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
