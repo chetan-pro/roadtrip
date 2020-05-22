@@ -40,6 +40,7 @@
         min-height: 80%;
     }
     #container1 img{ 
+      
      height: 100%;
       
     }
@@ -87,12 +88,19 @@
     }
    
     #container2 #con{
+        height: 300px;
         width: 100%;
         padding: 5px;
         margin-left: 0px;
+        margin-top: 150px;
+        justify-content: space-around;
        
     }
+    #container2 #con h1{
+        font-size: 25px;
+    }
     #container2 #con p{
+        font-size: 15px;
         width: 100%;
         
     }
